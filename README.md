@@ -10,7 +10,7 @@ Por default ele espera um postgres no `localhost:5432`, como o usuário `postgre
 é `vitrineDB`. Para levantar o banco via Docker o seguinte comando pode ser utilizado:
 
 ```
- docker run --name vitrine-virtual-db -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=vitrineDB -p 5432:5432 -d postgres
+ docker run --name vitrine-virtual-db -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=vitrinedb -p 5432:5432 -d postgres
 ``` 
 
 ## Rodando a aplicação em modo dev
